@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "typeinfo": "c",
+        "*.tcc": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "type_traits": "c",
+        "*.y": "yacc",
+        "array": "c",
+        "functional": "c",
+        "tuple": "c",
+        "utility": "c"
+    }
+}
