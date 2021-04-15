@@ -1,0 +1,52 @@
+= 0 a
+= 4 b
++ 10 11 t_0
+= t_0 j
+= 0 i
+label L_0 
+< i 5 t_1
+if  t_1  L_1
+goto L_2
+label L_1 
++ 1 2 t_2
+if  t_2  L_3
+goto L_4
+label L_3 
+= 0 p
+goto final_0
+label L_4 
+if  2  L_5
+goto L_6
+label L_5 
++ 1 '2' t_3
+= t_3 abc
++ a b t_4
+= t_4 cde
+goto final_0
+label L_6 
+label final_0 
+if  7  L_7
+goto L_8
+label L_7 
+goto final_1
+label L_8 
+label final_1 
+label final_2 
+= 2 l
+label L_9 
+< l 9 t_5
+if  t_5  L_10
+goto L_11
+label L_10 
++ l 1 l
+goto L_9
+label L_11 
+label L_12 
+if  1  L_13
+goto L_14
+label L_13 
+goto L_12
+label L_14 
++ i 1 i
+goto L_0
+label L_2 
